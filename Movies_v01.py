@@ -16,5 +16,9 @@ matplotlib.rcParams['figure.figsize'] = (12,8) # Adjust the configurations of th
 
 # Read in the data
 
-df = pd.read_csv(r'/Users/ali/movies.csv')
+df = pd.read_csv(r' movies.csv)
+                 
+# Let's look at the data
+
+df.head()                 
 
