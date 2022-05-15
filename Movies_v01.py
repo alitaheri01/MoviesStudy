@@ -44,6 +44,9 @@ for col in df.columns:
 df.dtypes
                  
                  
-                 
+# Change data type of columns
+
+df['budget'] = df['budget'].astype('int64')
+df['gross'] = df['gross'].astype('int64')                 
                  
                  
